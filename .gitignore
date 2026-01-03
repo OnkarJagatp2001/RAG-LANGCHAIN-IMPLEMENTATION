@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.ipython/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# FAISS / Vector Store
+# =========================
+faiss_store/
+*.faiss
+*.index
+*.pkl
+
+# =========================
+# Data files (RAW DOCUMENTS)
+# Uncomment if you do NOT want to commit data
+# =========================
+# data/
+# *.pdf
+# *.txt
+# *.csv
+# *.xlsx
+# *.docx
+# *.json
+
+# =========================
+# Model cache (HuggingFace / SentenceTransformers)
+# =========================
+.cache/
+huggingface/
+sentence_transformers/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+
+# =========================
+# Environment secrets
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Test artifacts
+# =========================
+.coverage
+htmlcov/
+pytest_cache/
