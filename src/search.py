@@ -36,6 +36,6 @@ class RAGSearch:
 # Example usage
 if __name__ == "__main__":
     rag_search = RAGSearch()
-    query = "What is attention mechanism?"
+    query = "Things need to be taken care for gas carrier in special machinery survey?"
     summary = rag_search.search_and_summarize(query, top_k=3)
     print("Summary:", summary)
